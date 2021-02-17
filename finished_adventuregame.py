@@ -26,7 +26,7 @@ def intro():
   if choice in answer_A:
     option_rock()
   elif choice in answer_B:
-    print ("\nWelp, that was quick. "
+    print ("\nWell, that was quick. "
     "\n\nYou died!")
   elif choice in answer_C:
     option_run()
@@ -60,7 +60,7 @@ def option_cave():
   "the ground. Do you pick up a sword. Yes or No?")
   choice = input(">>> ")
   if choice in yes:
-    sword = 1 #adds a sword
+    sword = 1 
   else:
     sword = 0
   print ("\nWhat do you do next?")
@@ -80,7 +80,7 @@ def option_cave():
     "closer and closer, your heart beat rapidly you got more tense and nervous. As the zombie "
     "reached out to your head, you pierced the blade into "
     "its brain. \n\nYou survived!")
-   else: #If the user didn't grab the sword
+   else: 
      print ("\nYou should have picked up that sword. You're "
      "defenseless. \n\nYou died!")
   elif choice in answer_C:
@@ -132,7 +132,7 @@ def option_town():
     "hoping it will kill the zombie. You swung the chainsaw across his head."
     "for love. "
     "\n\nHe died!,you survived!")
-  else: #If the user didn't grab the sword
+  else: 
      print ("\nMaybe you should have picked up the chainsaw. "
      "\n\nYou died!")
 intro()
